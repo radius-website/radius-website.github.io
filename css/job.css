@@ -61,6 +61,8 @@ div#job-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 0em 2em;
 }
 
 div#job-border {
