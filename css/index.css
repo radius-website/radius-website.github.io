@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient(white 60%, #91c4ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.5em;
+    color: #424242;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.75em;
+    text-decoration: none;
+    color: #d86573;
+}
+
+p.description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15em;
+    color: #ef9a9a;
+    margin: 0em;
+}
+
+div#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2em;
+}
+
+div#underline {
+    background-image: linear-gradient(to right, #91c4ff, #ef9a9a);
+    width: 45%;
+    height: 0.5em;
+    border-radius: 0.25em;
+}
+
+div#job-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
+}
+
+div.card-wrapper {
+    background-image: linear-gradient(to bottom right, #91c4ff, #ef9a9a);
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 1em;
+    padding: 3px;
+    margin-bottom: 3em;
+}
+
+div.card {
+    background-color: #fafafa;
+    padding: 2em 1.5em;
+    width: 100%;
+    border-radius: 0.8em;
+}
+
+div.description-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0.75em;
+}
+
+div.separator {
+    background-color: #ebebeb;
+    width: 0.2em;
+    height: 2.75em;
+    margin: 0em 1em 0em 0.2em;
+}
+
+div.tag {
+    background-color: #ebebeb;
+    color: #959595;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5em;
+    margin-right: 0.8em;
+    border-radius: 0.5em;
+}
+
+img#title-image {
+    width: 15em;
+    height: auto;
+}
